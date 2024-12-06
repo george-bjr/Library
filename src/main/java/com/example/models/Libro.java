@@ -1,4 +1,4 @@
-package com.example;
+package com.example.models;
 
 public class Libro {
 
@@ -6,6 +6,7 @@ public class Libro {
 	private String name;
 	private Long year;
 	private String author;
+	private Long inStock;
 	
 	public Libro() {}
 	
